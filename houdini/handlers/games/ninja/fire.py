@@ -55,7 +55,6 @@ class CardJitsuFireLogic(IWaddle):
         self.finish_position = self.seats
 
         self.tile_ids = CardJitsuFireLogic.DefaultTiles[:self.seats].copy()
-        self.cards = penguin.cards.values()
         self.current_player = None
         self.ninja_circle = itertools.cycle(self.ninjas)
 
